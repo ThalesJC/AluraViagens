@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050C48C62B4C169300D0A29B /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C48C52B4C169300D0A29B /* HomeTableViewHeader.swift */; };
 		055FA3C42B45ED09009E625C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055FA3C32B45ED09009E625C /* AppDelegate.swift */; };
 		055FA3C62B45ED09009E625C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055FA3C52B45ED09009E625C /* SceneDelegate.swift */; };
 		055FA3C82B45ED09009E625C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055FA3C72B45ED09009E625C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050C48C52B4C169300D0A29B /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 		055FA3C02B45ED09009E625C /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		055FA3C32B45ED09009E625C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		055FA3C52B45ED09009E625C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				055FA3CE2B45ED0B009E625C /* LaunchScreen.storyboard */,
 				055FA3D12B45ED0B009E625C /* Info.plist */,
 				055FA3D72B45F639009E625C /* HomeTableViewHeader.xib */,
+				050C48C52B4C169300D0A29B /* HomeTableViewHeader.swift */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				055FA3C82B45ED09009E625C /* ViewController.swift in Sources */,
+				050C48C62B4C169300D0A29B /* HomeTableViewHeader.swift in Sources */,
 				055FA3C42B45ED09009E625C /* AppDelegate.swift in Sources */,
 				055FA3C62B45ED09009E625C /* SceneDelegate.swift in Sources */,
 			);
