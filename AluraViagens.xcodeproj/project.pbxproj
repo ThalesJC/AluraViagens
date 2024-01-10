@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		050C48C62B4C169300D0A29B /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C48C52B4C169300D0A29B /* HomeTableViewHeader.swift */; };
+		052ADF4B2B4ED1C700281CA1 /* ViagemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052ADF492B4ED1C700281CA1 /* ViagemTableViewCell.swift */; };
+		052ADF4C2B4ED1C700281CA1 /* ViagemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052ADF4A2B4ED1C700281CA1 /* ViagemTableViewCell.xib */; };
 		055FA3C42B45ED09009E625C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055FA3C32B45ED09009E625C /* AppDelegate.swift */; };
 		055FA3C62B45ED09009E625C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055FA3C52B45ED09009E625C /* SceneDelegate.swift */; };
 		055FA3C82B45ED09009E625C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055FA3C72B45ED09009E625C /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		050C48C52B4C169300D0A29B /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
+		052ADF492B4ED1C700281CA1 /* ViagemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemTableViewCell.swift; sourceTree = "<group>"; };
+		052ADF4A2B4ED1C700281CA1 /* ViagemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViagemTableViewCell.xib; sourceTree = "<group>"; };
 		055FA3C02B45ED09009E625C /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		055FA3C32B45ED09009E625C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		055FA3C52B45ED09009E625C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050C48C72B4C7E5800D0A29B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				055FA3C52B45ED09009E625C /* SceneDelegate.swift */,
+				055FA3C32B45ED09009E625C /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		050C48C82B4C7E7700D0A29B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		050C48C92B4C7E8E00D0A29B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				052ADF482B4ED18200281CA1 /* Cells */,
+				050C48CA2B4C7EA900D0A29B /* Header */,
+				055FA3C92B45ED09009E625C /* Main.storyboard */,
+				055FA3C72B45ED09009E625C /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		050C48CA2B4C7EA900D0A29B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				055FA3D72B45F639009E625C /* HomeTableViewHeader.xib */,
+				050C48C52B4C169300D0A29B /* HomeTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		050C48CB2B4C7EE600D0A29B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		052ADF482B4ED18200281CA1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				052ADF492B4ED1C700281CA1 /* ViagemTableViewCell.swift */,
+				052ADF4A2B4ED1C700281CA1 /* ViagemTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		055FA3B72B45ED09009E625C = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +116,13 @@
 		055FA3C22B45ED09009E625C /* AluraViagens */ = {
 			isa = PBXGroup;
 			children = (
-				055FA3C32B45ED09009E625C /* AppDelegate.swift */,
-				055FA3C52B45ED09009E625C /* SceneDelegate.swift */,
-				055FA3C72B45ED09009E625C /* ViewController.swift */,
-				055FA3C92B45ED09009E625C /* Main.storyboard */,
+				050C48CB2B4C7EE600D0A29B /* ViewModel */,
+				050C48C92B4C7E8E00D0A29B /* View */,
+				050C48C82B4C7E7700D0A29B /* Model */,
+				050C48C72B4C7E5800D0A29B /* AppDelegate */,
 				055FA3CC2B45ED0B009E625C /* Assets.xcassets */,
 				055FA3CE2B45ED0B009E625C /* LaunchScreen.storyboard */,
 				055FA3D12B45ED0B009E625C /* Info.plist */,
-				055FA3D72B45F639009E625C /* HomeTableViewHeader.xib */,
-				050C48C52B4C169300D0A29B /* HomeTableViewHeader.swift */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -135,6 +189,7 @@
 				055FA3D82B45F639009E625C /* HomeTableViewHeader.xib in Resources */,
 				055FA3CD2B45ED0B009E625C /* Assets.xcassets in Resources */,
 				055FA3CB2B45ED09009E625C /* Main.storyboard in Resources */,
+				052ADF4C2B4ED1C700281CA1 /* ViagemTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				055FA3C82B45ED09009E625C /* ViewController.swift in Sources */,
+				052ADF4B2B4ED1C700281CA1 /* ViagemTableViewCell.swift in Sources */,
 				050C48C62B4C169300D0A29B /* HomeTableViewHeader.swift in Sources */,
 				055FA3C42B45ED09009E625C /* AppDelegate.swift in Sources */,
 				055FA3C62B45ED09009E625C /* SceneDelegate.swift in Sources */,
